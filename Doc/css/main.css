@@ -110,9 +110,9 @@ section p {
 }
 
 .logo {
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-top: 70px;
+    height: 40px;     /* Adjust the size here */
+  width: auto;      /* Maintain aspect ratio */
+  object-fit: contain;
 }
 .logo h1{
     color: #fff;
