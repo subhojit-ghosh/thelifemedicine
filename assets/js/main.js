@@ -55,10 +55,10 @@
       });
       BasicSlider.slick({
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
         dots: false,
         fade: true,
-        arrows: false, 
+        arrows: true, 
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
